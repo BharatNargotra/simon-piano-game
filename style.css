@@ -1,0 +1,43 @@
+body {
+    background-color: grey;
+}
+
+.keyboard {
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    border: 10px solid black;
+    box-shadow: 10px 10px 10px 0px lightblue;
+    height: 500px;
+    width: 1000px;
+}
+
+h1 {
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    text-shadow: 5px 5px 10px blue;
+    padding-top: 30px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    font-size: 100px;
+}
+
+.key {
+    background-color: aquamarine;
+    box-shadow: 0px 0px 10px 0px grey;
+    flex: 1;
+    gap: 2px;
+    border: 1px solid black;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: larger;
+    text-shadow: 5px 5px 5px rgb(5, 60, 67);
+}
+
+.pressed {
+    background-color: rgb(55, 196, 149);
+    box-shadow: 0px 0px 50px;
+}
